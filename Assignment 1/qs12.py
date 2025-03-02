@@ -7,5 +7,6 @@ with open ("first.txt","r") as file:
     print(r)
     for word in r:
         if word[0] in "aeiou":
-            file1.write(word+"\n")
-    
+            file1.write(word+" ")
+
+file1.close()  
