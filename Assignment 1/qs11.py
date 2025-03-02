@@ -11,3 +11,4 @@ with open("INDIA.txt","r") as file:
         if "India" in line:
             count += 1 
     print("The occurance of the word 'India' is = ",count)
+
