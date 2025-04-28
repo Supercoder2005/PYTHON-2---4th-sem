@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt 
 import pandas as pd 
-import numpy as np
+import numpy as np 
+import seaborn as sb
 import sklearn
 
 from sklearn.datasets import _california_housing 
@@ -23,6 +24,12 @@ print("mean =",np.mean([housing[:,0]]))
 print("median =",np.median(housing[:,0]))
 print("standard deviation =",np.std(housing[:,0]))
 
-#display target variable MedHouseVal 
+#histogram of each feature 
+plt.hist(housing[:,0])
+plt.xlabel("no of data points")
+plt.show()
+
+
+
 
 
