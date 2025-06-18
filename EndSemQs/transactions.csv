@@ -1,0 +1,11 @@
+TransactionID,Date,CustomerID,Amount,Category,Status
+T001,2025-06-01,C001,150.0,Groceries,Completed
+T002,2025-06-02,C002,50.0,Utilities,Completed
+T003,2025-06-03,C003,200.0,Entertainment,Pending
+T004,2025-06-04,C004,-100.0,Groceries,Completed
+T005,2025-06-05,C005,250.0,Entertainment,Completed
+T006,2025-06-06,C006,300.0,Utilities,Failed
+T007,2025-06-07,C007,100.0,Entertainment,Completed
+T008,2025-06-08,C008,40.0,Groceries,Completed
+T009,2025-06-09,C009,60.0,Utilities,Completed
+T010,2025-06-10,C010,250.0,Entertainment,Completed
